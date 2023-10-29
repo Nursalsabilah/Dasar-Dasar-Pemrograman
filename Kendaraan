@@ -1,0 +1,9 @@
+kendaraan1 = ["Avanza", "Mobil", "Toyota",1500]
+print(kendaraan1)
+
+kendaraan1 = kendaraan1 + ["hitam", 4, 250_000_000]
+kendaraan1.remove("Mobil")
+print(kendaraan1)
+
+import sys 
+print(sys.version)
